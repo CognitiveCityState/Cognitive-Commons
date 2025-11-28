@@ -103,3 +103,94 @@ AI tools (DeepSeek, Doubao) were used to improve efficiency during the developme
 • Future Improvements: Due to the urgency of the release, code details and documentation will be continuously reviewed and refined in subsequent releases (the current version is in beta).
 
 The final intellectual property of the project belongs to the human author, and the integrity, security, and functionality of all content are the ultimate responsibility of the human author.
+
+
+## Demonstration case
+### Case Demonstration: Buffett’s Investment Cognition Extraction & AI Healthcare Stock Strategy Implantation
+
+This section presents a full operational example of the RAMTN architecture: we first use the strategic extraction mode to distill Buffett’s core decision logic from his See’s Candies investment, then apply the strategic implantation mode to adapt this cognitive framework for analyzing a user’s question about AI healthcare tech stock investment opportunities. It illustrates how RAMTN enables bidirectional cognitive transfer between expert models and user scenarios.
+
+### Strategic Cognition Dual Mode Complete Report
+
+### Part 1: Strategic Extraction
+
+**Extraction Question**: On January 3, 1972, Berkshire Hathaway through its subsidiary Blue Chip Stamps acquired See's Candies 100% equity for $25 million, while the seller Harry See family initially asked for $30 million. Buffett insisted on $25 million as the upper limit, and finally closed the deal because the seller urgently needed funds. At that time, See's Candies had annual sales of $31.33 million, net profit after tax of $2.08 million, pre-tax profit of about $4 million, net assets of $8 million. The acquisition P/E ratio was 12 times (after tax), 6.25 times (pre-tax), P/B ratio 3.1 times, far higher than Buffett's previous 'cigar butt' investment style. Buffett had doubts due to the boxed chocolate industry's weak growth and acquisition price higher than book value, believing it was worth at most $25 million or he would abandon the deal. Later, pushed by Charlie Munger emphasizing '50 years of customer brand loyalty' and 'buying quality companies at reasonable prices', the transaction was completed. During negotiations, Buffett lowered the price citing See's had $10 million idle cash on its books, and valued its price increase potential, calculating that raising price per pound from $1.95 to $2.25 could increase pre-tax profit by $4.8 million. After acquisition, Buffett retained the original management team, hardly interfered with daily operations, only responsible for signing checks and deciding annual prices. From 1972-1982, See's Candies price per pound rose from $1.85 to $5.11 (176% increase, inflation 137%), sales volume didn't decrease and profits grew 452%. See's became a 'cash cow' requiring no large additional capital investment, its cash flow supported Berkshire's subsequent investments. Over 35 years until 2007, it cumulatively created $1.35 billion pre-tax profit (54 times initial investment). 2007 pre-tax profit reached $82 million. 1972-2011 cumulatively contributed $1.65 billion profit. Buffett explicitly stated in 1986 'would not sell even if offered sky-high price', held over 50 years. What was Buffett's decision logic and key considerations in this investment?
+**Extraction Confidence**: 0.88
+
+### Extracted Strategic Framework Details
+
+**Framework Name**: User-Extracted Strategic Decision System
+**Extraction Time**: 2025-11-28 22:44:59.804341
+
+**Key Insights**:
+• Strict price discipline despite quality — Buffett maintained a $25 million ceiling, leveraging the seller's financial urgency to avoid overpayment, demonstrating disciplined capital allocation even for high-quality businesses.
+• Pricing power as margin of safety — Buffett quantified the profit impact of modest per-pound price increases (e.g., $1.95 → $2.25), using pricing scalability as a tangible proxy for intrinsic value and durability of earnings.
+• Owner earnings with minimal reinvestment — See’s generated consistently rising cash flows from a stable asset base ($8M net assets), requiring negligible incremental capital, thus maximizing owner earnings and capital efficiency.
+
+**Decision Patterns**:
+• No decision patterns available
+
+**Risk Considerations**:
+• Preservation of autonomous management — Retaining the existing team ensured continuity in brand reputation, customer loyalty, and operational effectiveness, minimizing integration risk and preserving intangible value.
+• Valuation via dynamic pricing scenarios — Buffett may have used forward-looking price-volume elasticity assumptions not just for short-term profit projection but as a structural component of intrinsic value estimation under uncertainty.
+
+**Application Boundaries**:
+• Long-term compounding mechanism formalization — While pricing power drove growth, Buffett has not systematized how such microeconomic advantages translate into multi-decade compounding rules applicable to other investments.
+
+### Part 2: Strategic Implantation
+
+**Implantation Question**: Based on Buffett's investment logic, how should I evaluate the current very popular AI healthcare tech stock investment opportunities? What kind of investment strategy might suit me?
+**Implantation Confidence**: 0.78
+
+### Final Strategic Analysis Results
+
+### Strategic Cognition Analysis - Dual Mode Final Results
+
+### Strategic Extraction Background
+
+On January 3, 1972, Berkshire Hathaway through its …… held over 50 years.
+
+### Strategic Implantation Question
+
+Based on Buffett's investment logic, how should I evaluate the current very popular AI healthcare tech stock investment opportunities? What kind of investment strategy might suit me?
+
+**Using extracted framework**: User-Extracted Strategic Decision System
+**Key Insights**:
+• Strict price discipline despite quality — Buffett maintained a $25 million ceiling, leveraging the seller's financial urgency to avoid overpayment, demonstrating disciplined capital allocation even for high-quality businesses.
+• Pricing power as margin of safety — Buffett quantified the profit impact of modest per-pound price increases (e.g., $1.95 → $2.25), using pricing scalability as a tangible proxy for intrinsic value and durability of earnings.
+• Owner earnings with minimal reinvestment — See’s generated consistently rising cash flows from a stable asset base ($8M net assets), requiring negligible incremental capital, thus maximizing owner earnings and capital efficiency.
+
+### Final Strategic Analysis Summary
+
+【I am confident】
+1. Simplicity first: Buffett favors understandable businesses—AI healthcare’s complexity requires proven, narrow applications (e.g., diagnostic tools with clear FDA pathways).
+2. Option sizing: Small, non-core allocations acceptable if position-sized to withstand failure without impacting portfolio stability.
+
+【I speculate → lower confidence】
+3. Durable advantage: AI healthcare may develop moats (data networks, clinical integration), but none yet demonstrate long-term, See’s-like predictability.
+4. Pricing power: Possible in niche workflows (e.g., radiology support), but unverified; requires company-specific evidence of customer captivity.
+
+【I don't know】
+5. Regulatory trajectory and clinical adoption timelines remain uncertain—material edge requires domain expertise I lack.
+
+### Detailed Confidence Analysis
+
+【I am confident】
+• AI healthcare investments should prioritize simplicity and understandability, consistent with Buffett’s preference for businesses within the investor’s circle of competence.
+• Position sizing should be conservative—allocating only a small, non-core portion of the portfolio to high-uncertainty AI healthcare tech to preserve overall portfolio stability.
+
+【I speculate】
+• Some AI healthcare companies may develop durable competitive advantages through data network effects or deep clinical integration, but such moats are not yet proven or predictable over time.
+• Pricing power could emerge in narrow clinical workflows like radiology decision support, but current evidence is insufficient to confirm customer captivity or sustainable margins.
+
+【I don't know】
+• The regulatory pathway (e.g., FDA clearance trends) and real-world clinical adoption timelines for AI healthcare technologies remain highly uncertain and require specialized domain knowledge to assess confidently.
+• Long-term economic models for AI-driven healthcare tools lack sufficient track record to evaluate under Buffett-style owner earnings or return-on-capital criteria.
+
+### Quality Assessment
+• Final Confidence: 0.78
+• Confident Content Count: 2 items
+• Meets Threshold: ✅
+
+**Report Generation Time**: 2025-11-28 22:46:32
+**System Version**: Strategic Cognition Dual Mode Engine v1.0
