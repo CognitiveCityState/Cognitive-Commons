@@ -4,6 +4,9 @@
 
 >Urgent Release: In response to the recursive verification breakthrough of DeepSeekMath-V2, this proof-of-concept version was released early. The full documentation and use cases are being urgently refined, and the community is welcome to contribute!
 
+## 🚀 Online Experience
+This project has been deployed and is available for direct access at:http://101.200.137.245:8080
+
 Version Note: Currently in Beta (v0.1), it is a functional prototype version, and details will continue to be refined.
 Risk Warning: Due to the urgent release time, some code details have not been carefully reviewed, so it is recommended to only be tested in non-production environment.
 Future Optimization Plans:
