@@ -1,212 +1,73 @@
-# Breaking the Black Box of AI and Human Experts: Pluggable Cognitive Frameworks for Human-machine Collaboration
+# RAMTN：人机协作的认知增强引擎——让专家智慧人人可及
 
->A story of independent exploration: This project was conceived and implemented independently by me as a sophomore in half a year, through deep meta-interactions with a large language model. After the release of DeepSeekMath-V2, I decided to open source this general cognitive architecture ahead of time in order to drive the paradigm revolution between humans and AI from "tools" to "partners".
+你是否思考过：专家的宝贵经验（如名医的诊断直觉、名师的授课方法）能否像手机软件一样“安装”到AI中，帮助更多人？RAMTN系统让这个想象成为现实。
 
->Urgent Release: In response to the recursive verification breakthrough of DeepSeekMath-V2, this proof-of-concept version was released early. The full documentation and use cases are being urgently refined, and the community is welcome to contribute!
+这是一个能将**人类专家的思考模式**转化为**可复用的认知框架**，并通过AI赋能给每一个人的开源系统。它旨在破解“人类经验难以传承”与“AI决策不可信任”的双重困境。
 
-## 🚀 Online Experience
-This project has been deployed and is available for direct access at:http://101.200.137.245:8080
+> **诞生故事**：本系统由一名大二学生，在无导师指导、无实验室支持的条件下，通过与大型语言模型进行长达数个月的深度“元交互”对话，独立构思并开发完成。为促进认知平权与技术普惠，现将所有代码与原型系统完全开源。
 
-Version Note: Currently in Beta (v0.1), it is a functional prototype version, and details will continue to be refined.
-Risk Warning: Due to the urgent release time, some code details have not been carefully reviewed, so it is recommended to only be tested in non-production environment.
-Future Optimization Plans:
-1.Complete full code detail review and logic verification;
-2.Add new scene test cases to improve stability;
-3.Improve the exception handling mechanism and boundary scenario adaptation;
-4.Add more cognitive framework cases in vertical fields.
+## ✨ 立即免费体验
 
-All contents will continue to be updated iteratively. If any problems are found, you can feedback through Issue. Thank you for your understanding and support.
+我们已部署了可交互的在线演示系统，您无需安装任何环境，点击即可体验“专家智慧”如何被提取与复用：
+**[🚀 点击这里，立即在线体验 RAMTN 系统](http://101.200.137.245:8080)**
 
-## Summary
+*当前为 Beta 测试版（v0.1），功能完整但细节仍在优化中。期待您的反馈。*
 
-I propose a new paradigm called "human-machine collaborative cognitive augmentation" to address the fundamental gap between the cognitive black box of human experts (where implicit intuitions are hard to pass on) and the computational black box of AI (where decision-making processes cannot be trusted). Through structured meta-interactions, I distill human tacit knowledge into a computable and portable pluggable cognitive framework, enabling bidirectional cognitive augmentation. This work marks a key transition for AI from "tool" to "thought partner".
+## 🎯 它是什么？能带来什么？
 
-## Core Contributions
+想象一下，你可以为AI“安装”一个巴菲特投资思维包、一个三甲医生诊断逻辑包，或一个特级教师教学法包。RAMTN就是这个“认知应用商店”的引擎。
 
-My work pioneers a new paradigm of Human-AI Cognitive Symbiosis, directly confronting and solving the fundamental "Dual Black-Box" problem:
+**它能解决三大痛点：**
+1.  **对人类**：打破专家“认知黑箱”，将只可意会的直觉（如医生的诊断思路、教师的控场技巧）转化为可复制、可解释的“思维说明书”。
+2.  **对AI**：打破AI“计算黑箱”，通过结构化对话使其思考过程可追溯、可审核，建立人机信任。
+3.  **对社会**：让优质认知资源（如顶尖医疗、教育经验）得以沉淀和流动，助力基层工作者提升专业能力，促进“认知平权”。
 
-1.The "Functional White-Box" Framework for Dual Black-Boxes
+**它将带来三种价值：**
+- **对个人**：获得一个“AI思维伙伴”，在投资、学习、决策时获得专家级的分析框架。
+- **对组织**：建立组织的“认知资产库”，将核心员工的宝贵经验转化为可传承的组织能力。
+- **对公共服务**：为医疗资源下沉、教育均衡发展提供可落地的AI增效工具。
 
-I move beyond simply using or being puzzled by AI. This framework transforms the opaque "cognitive black-box" of human experts (their intangible strategic intuition) and the untrustworthy "computational black-box" of AI into a transparent, collaborative system. Through structured meta-interaction, it turns impenetrable black boxes into a composable, auditable, and scalable "Functional White-Box".
+## 🛠️ 它如何工作？三步看懂核心
 
-2.The RAMTN Architecture & Pluggable Cognitive Framework
+RAMTN的工作流程像是一个“认知工厂”：
 
-RAMTN (Recursive Adversarial Meta-Thinking Network) is the engine of this paradigm. Its core innovation is the "Pluggable Cognitive Framework" – a computable package that can be extracted from expert dialogues and then loaded into any RAMTN instance. This allows any individual or system to reason with the expert's core logic, transforming AI from a tool into a true "Thinking Partner".
+1.  **提取**：系统通过与专家对话，将其决策背后的深层逻辑（为什么这么做）提炼出来，打包成一个结构化的“认知框架”。
+2.  **封装**：这个框架包含了核心原则、关键问题和置信度规则，成为一个可独立存储和分发的“认知包”。
+3.  **增强**：当新手遇到类似问题时，系统会加载对应的“认知包”来引导AI分析，输出符合专家思维、且适配新手自身条件的建议。
 
-3.The Path to Cognitive Commons & Scalable Intelligence
+**技术核心**：系统采用独特的“建构-质疑-观察”三层递归对抗架构，确保提炼出的逻辑严谨可靠，并将所有输出分为“确信/推测/未知”三个置信等级，实现思考过程的“白盒化”。
 
-This is not merely a technical demo. It is the foundational protocol for a Cognitive Commons. It means:
-A senior doctor's diagnostic logic can be structured and reused for grassroots medical training.
-A master teacher's pedagogical intuition can be transformed into an interactive teaching aid.
-The collective wisdom of any high-cognition field can become a scalable public asset.
+## 🤝 我们需要你的贡献（共建认知平权生态）
 
-I provide the first complete engineering proof that human thinking itself can be made controllable, verifiable, and scalable.
+这个系统属于每一个相信知识应该流动、技术应该向善的人。我们尤其期待来自**粤港澳大湾区**的各界朋友加入共建。
 
-## Fundamental Differences from Existing Approaches
-| Methods               | Essence                     | Limitations               |                                                 
-|-------------------------------------|----------------------------------------------|----------------------------------------|
-| Tips for Engineering      | Optimize the input to the black box | AI's passive tool role was not changed  |
-| Chain of Thought      | Linear reasoning process display | Lack of recursive self-criticism and frame generation                        |
-| AI Agents             | Action-oriented task execution               | Decision logic is still encapsulated in a black box                         |
-| My Meta-Interactions | Role transition: AI becomes an active "partner" in framework generation and critique | The fundamental problem of cognition extraction and transplantation is solved |
+**无论你是谁，都可以参与：**
+- **如果你是医生、教师、金融从业者等专业人士**：欢迎试用系统，尝试提取你所在领域的核心决策框架，或为现有案例提供反馈。
+- **如果你是开发者**：欢迎审阅代码、修复Bug、优化前端交互或部署流程。
+- **如果你是产品经理或设计师**：欢迎帮助我们优化用户体验，让系统对更广泛的用户（尤其是基层工作者）更加友好。
+- **如果你是学生或研究者**：欢迎基于此系统开展实验或研究，探索人机协作的新可能。
+- **任何关注科技向善的朋友**：欢迎分享这个项目，让更多人看到一种不同的技术发展路径。
 
- *Table 1: A tabular comparison of the essence and limitations between traditional AI-assisted methods and the meta-interaction approach*
+**你可以通过以下方式立即开始：**
+1.  **试用在线Demo**，并在 [GitHub Issues](https://github.com/CognitiveCityState/Cognitive-Commons/issues) 留下你的想法。
+2.  **Star & Fork** 本仓库，这是对我们最大的支持。
+3.  根据README中的开发指南，参与代码或文档的改进。
 
-## RAMTN Architecture Core
+## ⚖️ AI使用声明与伦理承诺
 
-![Figure 1: RAMTN Overall Architecture](assets/ramtn_architecture.png)
+**AI辅助开发声明**：
+本项目在开发过程中使用了大型语言模型辅助进行代码实现、文档草拟和逻辑润色。但项目的**核心架构设计、方法论创新、愿景定义及最终的所有决策，均由人类作者独立完成**。人类作者对项目的完整性、安全性与功能性负最终责任。
 
-*Figure 1: Core input-process-output architecture of RAMTN, illustrating the cognitive framework-driven recursive thinking logic*
+**伦理承诺**：
+我们坚信技术应服务于人的福祉与社会公平。因此，我们承诺：
+1.  **知情与同意**：任何用于提取认知框架的专家对话，都应建立在专家完全知情和自愿的基础上。
+2.  **隐私与授权**：所有涉及个人隐私或商业机密的信息，必须在脱敏和获得明确授权后使用。
+3.  **非替代性**：本系统定位为“增强”人类认知的辅助工具，而非替代人类专家。在医疗、法律等关键领域，其输出仅供参考，不能替代专业判断。
+4.  **普惠导向**：项目将优先发展能在基层、乡村及资源受限环境中创造普惠价值的应用场景。
 
-![Figure 2: RAMTN Flowchart Element Explanation](assets/ramtn_flowchart_elements.png)
+---
 
-*Figure 2: Flowchart Element Explanation for Core input-process-output architecture of RAMTN*
+**开源，是为了更广阔的共创。**
+**让每一份独特的智慧，都不再是一座孤岛。**
 
-RAMTN is a recursive adversarial meta-thinking network with the following core process:
-
-Input:User question + an optional, loaded "expert cognitive framework".
-
-Process:Guided by the framework, perform a multiple recursive Construction-Question-Observe loop.
-
-Output:Structured analysis with three levels of confidence (I know for sure, I suspect, I don't know) to produce a trusted cognitive output.
-
-Here's how RAMTN works:
-
-![Figure 3: RAMTN Three-Layer Adversarial Loop](assets/ramtn_three_layer_loop.png)
-
-*Figure 3: Three-layer Constructor-Questioner-Observer loop process of RAMTN, including intra-layer interaction and inter-layer data transmission logic*
-
-![Figure 4: Three-Layer Structure Element Explanation](assets/three_layer_elements.png)
-
-*Figure 4: Flowchart Element Explanation for Three-layer Constructor-Questioner-Observer loop process of RAMTN*
-
-RAMTN uses a three-layer Constructor-Questioner-Observer adversarial structure:
-
-1.Process within each layer: Constructor generates responses labeled "sure/speculation/unknown" + source (demoting to "speculation" if knowledge is insufficient); The Questioner checks the "sure" facts/logic, the "speculative" logic; The Constructor needs to respond with the factual logic (failing to meet the criteria, the label will be downgraded), and finally the Observer will re-evaluate the classification.
-
-2.Inter-layer flow: The content of the Constructor + Questioner of this layer is passed to the next layer Constructor and the Observer of this layer, completing the three layers of iteration.
-
-3.Classification of results: "Convinced" needs to be agreed by both sides; "Speculative" if not all responses were accepted; "Unknown" is unable to prove/not responded.
-
-4.Utility and Transfer: I transfer the adversarial mechanism of the original mathematical problem to the medical domain, using a unified fact/logic standard for hallucination detection, and output a structured classification result.
-
-## A Note about DeepSeekMath-V2
-
-I noticed that the recently released DeepSeekMath-V2 is a brilliant demonstration of the power of the "recursive self-verification" paradigm in its domain. I congratulate and am excited about it. DeepSeekMath-V2's "generator-verifier-meta-verifier" self-verification framework provides a paradigm for the procedural rigor of mathematical reasoning (Shao et al., 2025). The model iterates reasoning ability through automated loop closure, reaching gold level in IMO 2025. Its technical details may refer to the open source report (https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf).
-
-I must point out:
-The architectural design of this work (RAMTN) was formed independently from the core ideas, with an early exploration timestamp predating the release of DeepSeekMath-V2. Far from undercutting my work, the success of DeepSeek in mathematics strongly confirms the foresight and correctness of the path I have chosen.
-
-Our goal is different: DeepSeekMath-V2 is a perfect example of this paradigm in closed mathematics. RAMTN, on the other hand, aims to build a general cognitive architecture to solve open, ambiguous human-level strategic decision problems.
-
-## Conclusions and the Future
-
-This work provides a technical foundation for breaking knowledge monopoly and realizing "cognitive equality". I have open sourced the RAMTN core engine and invited the community to explore its infinite possibilities in education, consulting, medical care and other fields together.
-
-## References
-
-1. Shao, Z., Luo, Y., Lu, C., Ren, Z.Z., Hu, J., Ye, T., Gou, Z., Ma, S., & Zhang, X. (2025). DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning. Open-source technical report. Retrieved from
-https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf
-
-## AI-Assisted Statement
-
-AI tools (DeepSeek, Doubao) were used to improve efficiency during the development of this project. The specific collaboration methods are as follows:
-
-• Code Level: The design of the core architecture and strategic cognitive framework of the project is controlled by human authors, the detailed implementation of the code (such as API call encapsulation, data parsing logic) is generated by AI, and all AI-generated code is verified by artificial logic and adapted to the architecture;
-
-• Documentation Level: The first draft of README and related instructions are generated by AI and reviewed by human authors, adjusted in structure, supplemented in content, and verified for technical accuracy;
-
-• Future Improvements: Due to the urgency of the release, code details and documentation will be continuously reviewed and refined in subsequent releases (the current version is in beta).
-
-The final intellectual property of the project belongs to the human author, and the integrity, security, and functionality of all content are the ultimate responsibility of the human author.
-
-
-## Demonstration case
-### Case Demonstration: Buffett’s Investment Cognition Extraction & AI Healthcare Stock Strategy Implantation
-
-This section presents a full operational example of the RAMTN architecture: we first use the strategic extraction mode to distill Buffett’s core decision logic from his See’s Candies investment, then apply the strategic implantation mode to adapt this cognitive framework for analyzing a user’s question about AI healthcare tech stock investment opportunities. It illustrates how RAMTN enables bidirectional cognitive transfer between expert models and user scenarios.
-
-### Strategic Cognition Dual Mode Complete Report
-
-### Part 1: Strategic Extraction
-
-**Extraction Question**: On January 3, 1972, Berkshire Hathaway through its subsidiary Blue Chip Stamps acquired See's Candies 100% equity for $25 million, while the seller Harry See family initially asked for $30 million. Buffett insisted on $25 million as the upper limit, and finally closed the deal because the seller urgently needed funds. At that time, See's Candies had annual sales of $31.33 million, net profit after tax of $2.08 million, pre-tax profit of about $4 million, net assets of $8 million. The acquisition P/E ratio was 12 times (after tax), 6.25 times (pre-tax), P/B ratio 3.1 times, far higher than Buffett's previous 'cigar butt' investment style. Buffett had doubts due to the boxed chocolate industry's weak growth and acquisition price higher than book value, believing it was worth at most $25 million or he would abandon the deal. Later, pushed by Charlie Munger emphasizing '50 years of customer brand loyalty' and 'buying quality companies at reasonable prices', the transaction was completed. During negotiations, Buffett lowered the price citing See's had $10 million idle cash on its books, and valued its price increase potential, calculating that raising price per pound from $1.95 to $2.25 could increase pre-tax profit by $4.8 million. After acquisition, Buffett retained the original management team, hardly interfered with daily operations, only responsible for signing checks and deciding annual prices. From 1972-1982, See's Candies price per pound rose from $1.85 to $5.11 (176% increase, inflation 137%), sales volume didn't decrease and profits grew 452%. See's became a 'cash cow' requiring no large additional capital investment, its cash flow supported Berkshire's subsequent investments. Over 35 years until 2007, it cumulatively created $1.35 billion pre-tax profit (54 times initial investment). 2007 pre-tax profit reached $82 million. 1972-2011 cumulatively contributed $1.65 billion profit. Buffett explicitly stated in 1986 'would not sell even if offered sky-high price', held over 50 years. What was Buffett's decision logic and key considerations in this investment?
-**Extraction Confidence**: 0.88
-
-### Extracted Strategic Framework Details
-
-**Framework Name**: User-Extracted Strategic Decision System
-**Extraction Time**: 2025-11-28 22:44:59.804341
-
-**Key Insights**:
-• Strict price discipline despite quality — Buffett maintained a $25 million ceiling, leveraging the seller's financial urgency to avoid overpayment, demonstrating disciplined capital allocation even for high-quality businesses.
-• Pricing power as margin of safety — Buffett quantified the profit impact of modest per-pound price increases (e.g., $1.95 → $2.25), using pricing scalability as a tangible proxy for intrinsic value and durability of earnings.
-• Owner earnings with minimal reinvestment — See’s generated consistently rising cash flows from a stable asset base ($8M net assets), requiring negligible incremental capital, thus maximizing owner earnings and capital efficiency.
-
-**Decision Patterns**:
-• No decision patterns available
-
-**Risk Considerations**:
-• Preservation of autonomous management — Retaining the existing team ensured continuity in brand reputation, customer loyalty, and operational effectiveness, minimizing integration risk and preserving intangible value.
-• Valuation via dynamic pricing scenarios — Buffett may have used forward-looking price-volume elasticity assumptions not just for short-term profit projection but as a structural component of intrinsic value estimation under uncertainty.
-
-**Application Boundaries**:
-• Long-term compounding mechanism formalization — While pricing power drove growth, Buffett has not systematized how such microeconomic advantages translate into multi-decade compounding rules applicable to other investments.
-
-### Part 2: Strategic Implantation
-
-**Implantation Question**: Based on Buffett's investment logic, how should I evaluate the current very popular AI healthcare tech stock investment opportunities? What kind of investment strategy might suit me?
-**Implantation Confidence**: 0.78
-
-### Final Strategic Analysis Results
-
-### Strategic Cognition Analysis - Dual Mode Final Results
-
-### Strategic Extraction Background
-
-On January 3, 1972, Berkshire Hathaway through its …… held over 50 years.
-
-### Strategic Implantation Question
-
-Based on Buffett's investment logic, how should I evaluate the current very popular AI healthcare tech stock investment opportunities? What kind of investment strategy might suit me?
-
-**Using extracted framework**: User-Extracted Strategic Decision System
-**Key Insights**:
-• Strict price discipline despite quality — Buffett maintained a $25 million ceiling, leveraging the seller's financial urgency to avoid overpayment, demonstrating disciplined capital allocation even for high-quality businesses.
-• Pricing power as margin of safety — Buffett quantified the profit impact of modest per-pound price increases (e.g., $1.95 → $2.25), using pricing scalability as a tangible proxy for intrinsic value and durability of earnings.
-• Owner earnings with minimal reinvestment — See’s generated consistently rising cash flows from a stable asset base ($8M net assets), requiring negligible incremental capital, thus maximizing owner earnings and capital efficiency.
-
-### Final Strategic Analysis Summary
-
-【I am confident】
-1. Simplicity first: Buffett favors understandable businesses—AI healthcare’s complexity requires proven, narrow applications (e.g., diagnostic tools with clear FDA pathways).
-2. Option sizing: Small, non-core allocations acceptable if position-sized to withstand failure without impacting portfolio stability.
-
-【I speculate → lower confidence】
-3. Durable advantage: AI healthcare may develop moats (data networks, clinical integration), but none yet demonstrate long-term, See’s-like predictability.
-4. Pricing power: Possible in niche workflows (e.g., radiology support), but unverified; requires company-specific evidence of customer captivity.
-
-【I don't know】
-5. Regulatory trajectory and clinical adoption timelines remain uncertain—material edge requires domain expertise I lack.
-
-### Detailed Confidence Analysis
-
-【I am confident】
-• AI healthcare investments should prioritize simplicity and understandability, consistent with Buffett’s preference for businesses within the investor’s circle of competence.
-• Position sizing should be conservative—allocating only a small, non-core portion of the portfolio to high-uncertainty AI healthcare tech to preserve overall portfolio stability.
-
-【I speculate】
-• Some AI healthcare companies may develop durable competitive advantages through data network effects or deep clinical integration, but such moats are not yet proven or predictable over time.
-• Pricing power could emerge in narrow clinical workflows like radiology decision support, but current evidence is insufficient to confirm customer captivity or sustainable margins.
-
-【I don't know】
-• The regulatory pathway (e.g., FDA clearance trends) and real-world clinical adoption timelines for AI healthcare technologies remain highly uncertain and require specialized domain knowledge to assess confidently.
-• Long-term economic models for AI-driven healthcare tools lack sufficient track record to evaluate under Buffett-style owner earnings or return-on-capital criteria.
-
-### Quality Assessment
-• Final Confidence: 0.78
-• Confident Content Count: 2 items
-• Meets Threshold: ✅
-
-**Report Generation Time**: 2025-11-28 22:46:32
-**System Version**: Strategic Cognition Dual Mode Engine v1.0
+让我们一起，从这里开始。
