@@ -26,6 +26,22 @@ Current human-AI collaboration is limited by two fundamental opacities:
 
 RAMTN introduces a paradigm shift through **structured meta-interaction**. It distills human "hot cognition" (expert intuition) into reusable, explicit "cold cognition" frameworks while making AI's "cold cognition" adaptable to human context and values. The interaction protocol itself becomes a **verifiable, auditable Functional White Box**.
 
+### 📄 Technical Paper & In-Depth Report
+
+The complete theoretical foundation, methodological details, system architecture, and cross-domain case studies of this project are formalized in an academic paper titled:
+
+**《Deconstructing the Dual Black Box: A Plug-and-Play Cognitive Framework for Human-AI Collaborative Enhancement》**
+
+**📖 [Read the Full Technical Paper on arXiv](https://arxiv.org/abs/2512.08740)**
+
+This paper provides a comprehensive exposition of:
+*   **The Core Paradigm**: The shift from AI as a “tool” to a “thinking partner” through Human-AI Collaborative Cognitive Augmentation.
+*   **The Methodology**: The original design of the “Meta-interaction” system and the “Recursive Adversarial Meta-Thinking Network (RAMTN)” architecture.
+*   **Empirical Validation**: Complete “framework extraction → enhancement” case studies across investment, healthcare, and education.
+*   **Broader Implications**: A feasible technical path toward “cognitive equity” and a “functional white-box” approach to AI governance.
+
+We recommend researchers, deep users, and potential contributors read this paper to fully understand the design philosophy, technical boundaries, and long-term vision of the RAMTN project. The open-source code is the engineering realization of these ideas, while this paper serves as its theoretical foundation.
+
 ## 🛠 How It Works: The RAMTN Architecture
 
 RAMTN operates through a recursive, three-layer **Constructor-Critic-Observer** loop, guided by the loaded Pluggable Cognitive Framework.
